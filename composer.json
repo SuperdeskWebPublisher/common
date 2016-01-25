@@ -4,24 +4,24 @@
     "description": "Common library - common interfaces, models etc. used in PHP apps.",
     "keywords": ["common", "superdesk", "publisher", "library"],
     "authors": [
-      	{
-        	"name": "Rafał Muszyński",
-        	"email": "rafal.muszynski@sourcefabric.org"
-      	}
+        {
+            "name": "Rafał Muszyński",
+            "email": "rafal.muszynski@sourcefabric.org"
+        }
     ],
     "license":"GPL-3.0",
     "require": {
         "php": ">=5.5|^7.0"
     },
     "require-dev": {
-      	"phpspec/phpspec": "^2.4"
+        "phpspec/phpspec": "^2.4"
     },
     "config": {
-      	"bin-dir": "bin"
+        "bin-dir": "bin"
     },
     "autoload": {
         "exclude-from-classmap": [
-			"spec/"
+            "spec/"
         ],
         "psr-4": { "SWP\\Component\\Common\\": "" }
     },
